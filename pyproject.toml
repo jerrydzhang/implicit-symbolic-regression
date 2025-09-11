@@ -1,0 +1,23 @@
+[project]
+name = "primal"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+		"numpy~=2.3.3",
+		"scipy~=1.16.1",
+		"pandas~=2.3.2",
+		"scikit-learn~=1.7.2",
+		"pysr~=1.5.9",
+]
+
+[project.optional-dependencies]
+dev = [
+		"pytest",
+		"black",
+]
+
+vis = [
+		"matplotlib~=3.10.6",
+]
