@@ -1,0 +1,7 @@
+name: gplearn
+description: gplearn parameters search
+shared:
+  module: experiments.gplearn_experiment
+  random_state: 42
+  parameters:
+    data_file: circle_0_01_noise.csv

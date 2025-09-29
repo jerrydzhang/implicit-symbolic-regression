@@ -1,23 +1,30 @@
 [project]
-name = "primal"
+name = "primel"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-		"numpy~=2.3.3",
-		"scipy~=1.16.1",
-		"pandas~=2.3.2",
-		"scikit-learn~=1.7.2",
-		"pysr~=1.5.9",
+	"numpy>=2.3.3",
+	"scipy>=1.16.1",
+	"pandas>=2.3.2",
+	"scikit-learn>=1.7.2",
+	"matplotlib>=3.10.6",
 ]
 
 [project.optional-dependencies]
-dev = [
-		"pytest",
-		"black",
+gplearn = ["gplearn>=0.4.2"]
+
+adapters = [
+	"primel[gplearn]",
 ]
 
-vis = [
-		"matplotlib~=3.10.6",
+dev = [
+    "jupyterlab>=4.4.9",
+    "jupyterlab-lsp>=5.2.0",
+    "jupyterlab-vim>=4.1.4",
+    "notebook-intelligence>=2.4.2",
+    "pytest>=8.4.2",
+    "python-lsp-server>=1.13.1",
+    "ruff>=0.13.0",
 ]

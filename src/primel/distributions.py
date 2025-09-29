@@ -1,12 +1,19 @@
 from dataclasses import dataclass, field, InitVar
-from typing import Self, Protocol
+from typing import Self, Protocol, Tuple
 import warnings
-from functools import cached_property
 
 import numpy as np
 from scipy.stats import gaussian_kde
-from scipy.special import ndtr
-from scipy.optimize import brentq
+from scipy.spatial.distance import cdist
+from scipy.optimize import nnls
+
+__all__ = [
+    "Distribution",
+    "Empirical",
+    "GaussianKDE",
+    "MultivariateUniform",
+    "MixtureModel",
+]
 
 
 def _validate_query_points(query_points: np.ndarray, n_features: int):
@@ -26,12 +33,6 @@ class Distribution(Protocol):
     def pdf(self: Self, query_points: np.ndarray) -> np.ndarray:
         raise NotImplementedError
 
-    def cdf(self: Self, query_points: np.ndarray) -> np.ndarray:
-        raise NotImplementedError
-
-    def ppf(self: Self, query_points: np.ndarray) -> np.ndarray:
-        raise NotImplementedError
-
     def sample(
         self: Self,
         n_samples: int,
@@ -41,42 +42,100 @@ class Distribution(Protocol):
 
 
 @dataclass
-class WeightedKDE:
+class Empirical:
+    """
+    A distribution based on a fixed dataset.
+    Sampling from this distribution means drawing samples from the dataset.
+    """
+
+    data: np.ndarray
+    shape: tuple[int, ...] = field(init=False)
+
+    def __post_init__(self: Self):
+        self.shape = self.data.shape
+
+    def pdf(self: Self, query_points: np.ndarray) -> np.ndarray:
+        """
+        The PDF of a pure empirical distribution is a sum of Dirac delta functions,
+        which is not practical for numerical computation. A smoothed version of this
+        is the WeightedKDE. This method is not implemented as it's not well-defined
+        for discrete points.
+        """
+        raise NotImplementedError(
+            "PDF is not well-defined for an empirical distribution of discrete points. "
+            "Consider using a WeightedKDE for a smoothed density approximation."
+        )
+
+    def sample(
+        self: Self,
+        n_samples: int,
+        random_state: int | None = None,
+    ) -> np.ndarray:
+        """
+        Draw samples from the dataset.
+        If n_samples is greater than the dataset size, it samples with replacement.
+        Otherwise, it samples without replacement.
+        """
+        rng = np.random.default_rng(random_state)
+        num_data_points = len(self.data)
+
+        replace = n_samples > num_data_points
+
+        indices = rng.choice(num_data_points, size=n_samples, replace=replace)
+        return self.data[indices]
+
+
+@dataclass
+class GaussianKDE:
     shape: tuple[int, ...] = field(init=False)
 
     X: np.ndarray
     bandwidth: float
-    _weights: np.ndarray = field(init=False)
+    weights: np.ndarray = field(init=False)
 
     _gaussian_kde: gaussian_kde = field(init=False, repr=False)
 
-    weights: InitVar[np.ndarray | None] = None
-
-    def __post_init__(self: Self, initial_weights: np.ndarray | None):
+    def __post_init__(self: Self):
         self.shape = self.X.shape
 
-        if initial_weights is None:
-            self._weights = np.ones(len(self.X)) / len(self.X)
-        else:
-            self._weights = initial_weights / np.sum(initial_weights)
+        squared_diff = cdist(self.X, self.X, metric="sqeuclidean")
+
+        gamma = 1 / (2 * self.bandwidth**2)
+        G = np.exp(-gamma * squared_diff)
+        ones = np.ones(self.X.shape[0])
+
+        weights, _ = nnls(G, ones)
+        self.weights = weights / np.sum(weights)
 
         self._gaussian_kde = gaussian_kde(
             dataset=self.X.T,
-            weights=self._weights,
+            weights=self.weights,
             bw_method=self.bandwidth,
         )
+
+    @classmethod
+    def from_weights(
+        cls: type[Self],
+        X: np.ndarray,
+        bandwidth: float,
+        initial_weights: np.ndarray,
+    ) -> type[Self]:
+        cls.shape = X.shape
+        cls.X = X
+        cls.bandwidth = bandwidth
+
+        cls.weights = initial_weights / np.sum(initial_weights)
+        cls._gaussian_kde = gaussian_kde(
+            dataset=X.T,
+            weights=cls.weights,
+            bw_method=bandwidth,
+        )
+
+        return cls
 
     def pdf(self: Self, query_points: np.ndarray) -> np.ndarray:
         query_points = _validate_query_points(query_points, self.shape[1])
         return self._gaussian_kde.evaluate(query_points.T)
-
-    def cdf(self: Self, query_points: np.ndarray) -> np.ndarray:
-        cdf = tuple(
-            ndtr(np.ravel(item - self.X) / np.sqrt(self.bandwidth)).dot(self._weights)
-            for item in query_points
-        )
-
-        return np.array(cdf).T
 
     def sample(
         self: Self,
@@ -88,7 +147,7 @@ class WeightedKDE:
 
 @dataclass
 class MultivariateUniform:
-    shape: tuple[int, ...] = field(init=False)
+    shape: Tuple[int, ...] = field(init=False)
 
     upper: np.ndarray = field(init=False)
     lower: np.ndarray = field(init=False)
@@ -145,25 +204,6 @@ class MultivariateUniform:
 
         return pdf_values
 
-    def cdf(self: Self, query_points: np.ndarray) -> np.ndarray:
-        query_points = _validate_query_points(query_points, self.shape[1])
-
-        volume = np.prod(self.upper - self.lower)
-        if volume == 0:
-            warnings.warn(
-                "The volume of the defined space is zero. "
-                "This will lead to undefined behavior.",
-                UserWarning,
-            )
-            return np.zeros(len(query_points))
-
-        intersection_lengths = np.maximum(
-            0, np.minimum(query_points, self.upper) - self.lower
-        )
-        intersection_volume = np.prod(intersection_lengths, axis=1)
-
-        return intersection_volume / volume
-
     def sample(
         self: Self,
         n_samples: int,
@@ -181,45 +221,27 @@ class MixtureModel:
     shape: tuple[int, ...] = field(init=False)
 
     components: list[Distribution]
-    weights: np.ndarray = field(init=False)
+    _weights: np.ndarray = field(init=False)
 
-    initial_weights: InitVar[np.ndarray | None] = None
+    weights: InitVar[np.ndarray | None] = None
 
-    def __post_init__(self: Self, initial_weights: np.ndarray | None):
+    def __post_init__(self: Self, weights: np.ndarray | None):
         self.shape = self.components[0].shape
 
-        if initial_weights is None:
-            self.weights = np.ones(len(self.components)) / len(self.components)
+        if weights is None:
+            self._weights = np.ones(len(self.components)) / len(self.components)
         else:
-            self.weights = initial_weights / np.sum(initial_weights)
+            self._weights = weights / np.sum(weights)
 
     def pdf(self: Self, query_points: np.ndarray) -> np.ndarray:
         if query_points.ndim == 1:
             query_points = query_points.reshape(1, -1)
 
-        pdf_values = np.sum(
-            np.dot(
-                np.asarray([c.pdf(query_points) for c in self.components]),
-                self.weights,
-            ),
-            axis=0,
-        )
+        pdf_values = np.zeros(query_points.shape[0])
+        for weight, component in zip(self._weights, self.components):
+            pdf_values += weight * component.pdf(query_points)
 
         return pdf_values
-
-    def cdf(self: Self, query_points: np.ndarray) -> np.ndarray:
-        if query_points.ndim == 1:
-            query_points = query_points.reshape(1, -1)
-
-        cdf_values = np.sum(
-            np.dot(
-                np.asarray([c.cdf(query_points) for c in self.components]),
-                self.weights,
-            ),
-            axis=0,
-        )
-
-        return cdf_values
 
     def sample(
         self: Self,
@@ -228,7 +250,7 @@ class MixtureModel:
     ) -> np.ndarray:
         rng = np.random.default_rng(random_state)
 
-        component_index_counts = rng.multinomial(n_samples, self.weights)
+        component_index_counts = rng.multinomial(n_samples, self._weights)
         component_random_states = rng.integers(0, 2**31, size=len(self.components))
 
         samples = []
