@@ -3,7 +3,7 @@ from typing import Self, Protocol, Tuple
 import warnings
 
 import numpy as np
-from scipy.stats import gaussian_kde
+from primel.patch_kde import PicklableGaussianKDE as gaussian_kde
 from scipy.spatial.distance import cdist
 from scipy.optimize import nnls
 

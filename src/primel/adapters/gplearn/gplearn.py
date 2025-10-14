@@ -28,6 +28,10 @@ class GPLearnAdapter:
     reference_distribution: Distribution
     early_stopping: EarlyStopping | None = None
 
+    # Controls if early stopping is active to allow computing the actual
+    # kl value
+    eval: bool = False
+
     lambda_: float = 1.0
     exponent: float = 1.0
     mean_center_on: str | list[str] | None = None

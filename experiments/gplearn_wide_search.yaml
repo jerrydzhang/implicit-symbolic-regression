@@ -1,0 +1,808 @@
+description: gplearn parameters search
+experiments:
+- parameters:
+    model__generations: 23.90822323043526
+    model__kde_bandwidth: 0.003610648257619284
+    model__n_kde: 283
+    model__n_train: 86
+    model__n_uniform: 344
+    model__parsimony_coefficient: 0.029124323058670354
+    model__population_size: 831.4666413782497
+- parameters:
+    model__generations: 95.2322935818252
+    model__kde_bandwidth: 20384.634418185204
+    model__n_kde: 372
+    model__n_train: 57
+    model__n_uniform: 114
+    model__parsimony_coefficient: 0.04388938230284367
+    model__population_size: 903.7734680060776
+- parameters:
+    model__generations: 59.88634333234488
+    model__kde_bandwidth: 79350.4847871446
+    model__n_kde: 38
+    model__n_train: 31
+    model__n_uniform: 42
+    model__parsimony_coefficient: 0.06223673984723087
+    model__population_size: 699.8681539135001
+- parameters:
+    model__generations: 81.3613374980568
+    model__kde_bandwidth: 1.664475695341241
+    model__n_kde: 34
+    model__n_train: 68
+    model__n_uniform: 259
+    model__parsimony_coefficient: 0.0005546883841638783
+    model__population_size: 964.2659308407165
+- parameters:
+    model__generations: 73.21045375741562
+    model__kde_bandwidth: 0.010031221763955834
+    model__n_kde: 364
+    model__n_train: 43
+    model__n_uniform: 12
+    model__parsimony_coefficient: 0.06316150460033951
+    model__population_size: 802.1387462165184
+- parameters:
+    model__generations: 89.63781609467549
+    model__kde_bandwidth: 0.6069307727001517
+    model__n_kde: 433
+    model__n_train: 68
+    model__n_uniform: 151
+    model__parsimony_coefficient: 0.026165905581013837
+    model__population_size: 561.9989307545127
+- parameters:
+    model__generations: 28.318548081798284
+    model__kde_bandwidth: 0.08749291678958396
+    model__n_kde: 135
+    model__n_train: 58
+    model__n_uniform: 62
+    model__parsimony_coefficient: 0.017198290554429424
+    model__population_size: 613.2673814748226
+- parameters:
+    model__generations: 21.756585969444053
+    model__kde_bandwidth: 0.004201853792042689
+    model__n_kde: 184
+    model__n_train: 18
+    model__n_uniform: 58
+    model__parsimony_coefficient: 0.05797873392906155
+    model__population_size: 681.4517396118899
+- parameters:
+    model__generations: 27.106410858845685
+    model__kde_bandwidth: 0.013461477464172226
+    model__n_kde: 14
+    model__n_train: 81
+    model__n_uniform: 234
+    model__parsimony_coefficient: 0.051716250710337586
+    model__population_size: 860.6926140945521
+- parameters:
+    model__generations: 39.33504208451909
+    model__kde_bandwidth: 0.00881287320573029
+    model__n_kde: 380
+    model__n_train: 36
+    model__n_uniform: 430
+    model__parsimony_coefficient: 0.06687949942500514
+    model__population_size: 859.4237166687324
+- parameters:
+    model__generations: 78.26394645333039
+    model__kde_bandwidth: 0.05914604119961628
+    model__n_kde: 250
+    model__n_train: 74
+    model__n_uniform: 133
+    model__parsimony_coefficient: 0.013325302983743586
+    model__population_size: 749.138092195964
+- parameters:
+    model__generations: 91.58821392283086
+    model__kde_bandwidth: 934813.3061906947
+    model__n_kde: 356
+    model__n_train: 62
+    model__n_uniform: 483
+    model__parsimony_coefficient: 0.07534529368945958
+    model__population_size: 671.8281496379414
+- parameters:
+    model__generations: 88.76215659808422
+    model__kde_bandwidth: 43900.800201287064
+    model__n_kde: 155
+    model__n_train: 38
+    model__n_uniform: 138
+    model__parsimony_coefficient: 0.08158019992604788
+    model__population_size: 879.7066879521631
+- parameters:
+    model__generations: 83.79112345149144
+    model__kde_bandwidth: 7.504114514303157e-05
+    model__n_kde: 244
+    model__n_train: 70
+    model__n_uniform: 414
+    model__parsimony_coefficient: 0.021883049566107628
+    model__population_size: 824.2393471143737
+- parameters:
+    model__generations: 98.59143072356007
+    model__kde_bandwidth: 203.86433285774675
+    model__n_kde: 351
+    model__n_train: 77
+    model__n_uniform: 315
+    model__parsimony_coefficient: 0.04243146157698505
+    model__population_size: 609.3736668961369
+- parameters:
+    model__generations: 22.648389554994708
+    model__kde_bandwidth: 82.25010265789406
+    model__n_kde: 399
+    model__n_train: 71
+    model__n_uniform: 472
+    model__parsimony_coefficient: 0.05658522586261655
+    model__population_size: 869.1003877309699
+- parameters:
+    model__generations: 69.98634868248422
+    model__kde_bandwidth: 436295.3870512251
+    model__n_kde: 318
+    model__n_train: 10
+    model__n_uniform: 103
+    model__parsimony_coefficient: 0.05408218967107614
+    model__population_size: 710.0471871681495
+- parameters:
+    model__generations: 27.696089521926922
+    model__kde_bandwidth: 0.005885626382999788
+    model__n_kde: 221
+    model__n_train: 59
+    model__n_uniform: 73
+    model__parsimony_coefficient: 0.011334519927661907
+    model__population_size: 556.2064176714417
+- parameters:
+    model__generations: 29.856399741028028
+    model__kde_bandwidth: 0.0002490882943420195
+    model__n_kde: 394
+    model__n_train: 24
+    model__n_uniform: 38
+    model__parsimony_coefficient: 0.0036426471440753894
+    model__population_size: 641.4618970290874
+- parameters:
+    model__generations: 66.76551763185671
+    model__kde_bandwidth: 14.483206324979847
+    model__n_kde: 28
+    model__n_train: 34
+    model__n_uniform: 385
+    model__parsimony_coefficient: 0.08505898582273322
+    model__population_size: 547.6495011602238
+- parameters:
+    model__generations: 50.889320768981875
+    model__kde_bandwidth: 9110.293909390117
+    model__n_kde: 127
+    model__n_train: 77
+    model__n_uniform: 210
+    model__parsimony_coefficient: 0.09171160226059134
+    model__population_size: 575.3253035003762
+- parameters:
+    model__generations: 92.53110692899985
+    model__kde_bandwidth: 0.12254281153379765
+    model__n_kde: 87
+    model__n_train: 64
+    model__n_uniform: 386
+    model__parsimony_coefficient: 0.03429706279168681
+    model__population_size: 518.1321651417119
+- parameters:
+    model__generations: 77.46593401620328
+    model__kde_bandwidth: 3.7265282000669796e-06
+    model__n_kde: 170
+    model__n_train: 13
+    model__n_uniform: 158
+    model__parsimony_coefficient: 0.04922158611879703
+    model__population_size: 920.7741709267525
+- parameters:
+    model__generations: 53.11183811963537
+    model__kde_bandwidth: 319824.4347318574
+    model__n_kde: 426
+    model__n_train: 65
+    model__n_uniform: 110
+    model__parsimony_coefficient: 0.036893157023360754
+    model__population_size: 989.2795836753737
+- parameters:
+    model__generations: 89.21638841612503
+    model__kde_bandwidth: 506.67366510807955
+    model__n_kde: 477
+    model__n_train: 33
+    model__n_uniform: 141
+    model__parsimony_coefficient: 0.00588828222897578
+    model__population_size: 573.261157656279
+- parameters:
+    model__generations: 84.6214861327489
+    model__kde_bandwidth: 3.2809106670075574e-05
+    model__n_kde: 236
+    model__n_train: 20
+    model__n_uniform: 445
+    model__parsimony_coefficient: 0.07799233748363393
+    model__population_size: 692.969083964457
+- parameters:
+    model__generations: 57.75167825967185
+    model__kde_bandwidth: 8.916363606722584e-06
+    model__n_kde: 453
+    model__n_train: 46
+    model__n_uniform: 231
+    model__parsimony_coefficient: 0.08391624202398086
+    model__population_size: 537.9274007935709
+- parameters:
+    model__generations: 25.745047592316585
+    model__kde_bandwidth: 0.9076213022911871
+    model__n_kde: 418
+    model__n_train: 40
+    model__n_uniform: 305
+    model__parsimony_coefficient: 0.08011884992738262
+    model__population_size: 958.9541239490338
+- parameters:
+    model__generations: 75.52215624172351
+    model__kde_bandwidth: 0.001553636121149988
+    model__n_kde: 304
+    model__n_train: 73
+    model__n_uniform: 252
+    model__parsimony_coefficient: 0.023584234536920216
+    model__population_size: 850.536972566455
+- parameters:
+    model__generations: 25.33055904701266
+    model__kde_bandwidth: 5835.246979836906
+    model__n_kde: 442
+    model__n_train: 28
+    model__n_uniform: 337
+    model__parsimony_coefficient: 0.04191258757134195
+    model__population_size: 599.984186001488
+- parameters:
+    model__generations: 80.5634949972779
+    model__kde_bandwidth: 978.9373793679174
+    model__n_kde: 57
+    model__n_train: 41
+    model__n_uniform: 216
+    model__parsimony_coefficient: 0.012675350012068645
+    model__population_size: 756.726846036695
+- parameters:
+    model__generations: 73.68986100938206
+    model__kde_bandwidth: 1.9773334396229405
+    model__n_kde: 361
+    model__n_train: 84
+    model__n_uniform: 435
+    model__parsimony_coefficient: 0.004584312778428281
+    model__population_size: 656.5631529692484
+- parameters:
+    model__generations: 32.538814071229105
+    model__kde_bandwidth: 3.2388385472298764
+    model__n_kde: 208
+    model__n_train: 79
+    model__n_uniform: 296
+    model__parsimony_coefficient: 0.025191848185416806
+    model__population_size: 707.9966588549228
+- parameters:
+    model__generations: 42.397085694413796
+    model__kde_bandwidth: 0.024524065961558338
+    model__n_kde: 147
+    model__n_train: 49
+    model__n_uniform: 200
+    model__parsimony_coefficient: 0.01524948113461059
+    model__population_size: 798.5083488697837
+- parameters:
+    model__generations: 56.65753818497584
+    model__kde_bandwidth: 0.0005993283469035117
+    model__n_kde: 175
+    model__n_train: 86
+    model__n_uniform: 377
+    model__parsimony_coefficient: 0.03903658853329979
+    model__population_size: 965.6368241421028
+- parameters:
+    model__generations: 32.916944769766175
+    model__kde_bandwidth: 4696.601078206362
+    model__n_kde: 15
+    model__n_train: 53
+    model__n_uniform: 148
+    model__parsimony_coefficient: 0.053080965052814705
+    model__population_size: 818.0585283398575
+- parameters:
+    model__generations: 41.11580689630408
+    model__kde_bandwidth: 0.3074445355557218
+    model__n_kde: 65
+    model__n_train: 12
+    model__n_uniform: 491
+    model__parsimony_coefficient: 0.07035930538123365
+    model__population_size: 905.5387945049761
+- parameters:
+    model__generations: 36.52564513659548
+    model__kde_bandwidth: 9.265012610076026
+    model__n_kde: 42
+    model__n_train: 25
+    model__n_uniform: 425
+    model__parsimony_coefficient: 0.006359217554597386
+    model__population_size: 653.386491814513
+- parameters:
+    model__generations: 90.62893111551469
+    model__kde_bandwidth: 1.2321343922419047e-05
+    model__n_kde: 79
+    model__n_train: 53
+    model__n_uniform: 254
+    model__parsimony_coefficient: 0.06747995551817969
+    model__population_size: 889.371065734619
+- parameters:
+    model__generations: 52.465733058619804
+    model__kde_bandwidth: 0.03069715483843678
+    model__n_kde: 308
+    model__n_train: 50
+    model__n_uniform: 176
+    model__parsimony_coefficient: 0.09288126334632527
+    model__population_size: 880.3206384921016
+- parameters:
+    model__generations: 85.42397379374339
+    model__kde_bandwidth: 0.03789460173115264
+    model__n_kde: 292
+    model__n_train: 44
+    model__n_uniform: 25
+    model__parsimony_coefficient: 0.06039259825244411
+    model__population_size: 585.7782663938376
+- parameters:
+    model__generations: 65.59429759606849
+    model__kde_bandwidth: 0.00014785908871446722
+    model__n_kde: 217
+    model__n_train: 18
+    model__n_uniform: 406
+    model__parsimony_coefficient: 0.002969806286358673
+    model__population_size: 784.7501304866706
+- parameters:
+    model__generations: 63.3023034463945
+    model__kde_bandwidth: 4.783597093041385
+    model__n_kde: 263
+    model__n_train: 20
+    model__n_uniform: 127
+    model__parsimony_coefficient: 0.03091886561031513
+    model__population_size: 929.4630635213014
+- parameters:
+    model__generations: 55.63898698049702
+    model__kde_bandwidth: 3169.0104656213794
+    model__n_kde: 409
+    model__n_train: 30
+    model__n_uniform: 65
+    model__parsimony_coefficient: 0.08765780659224828
+    model__population_size: 526.4279345127031
+- parameters:
+    model__generations: 38.66717174878133
+    model__kde_bandwidth: 1004.8264921269147
+    model__n_kde: 471
+    model__n_train: 76
+    model__n_uniform: 94
+    model__parsimony_coefficient: 0.03708370686183778
+    model__population_size: 872.0127571343571
+- parameters:
+    model__generations: 43.01916210762336
+    model__kde_bandwidth: 21.481988148344797
+    model__n_kde: 425
+    model__n_train: 29
+    model__n_uniform: 34
+    model__parsimony_coefficient: 0.07674763398805154
+    model__population_size: 603.1384304455987
+- parameters:
+    model__generations: 78.54529717888883
+    model__kde_bandwidth: 6.042857049516974e-06
+    model__n_kde: 370
+    model__n_train: 27
+    model__n_uniform: 324
+    model__parsimony_coefficient: 0.0899434055408623
+    model__population_size: 751.375942529913
+- parameters:
+    model__generations: 97.46374025434632
+    model__kde_bandwidth: 2.589395867203178e-06
+    model__n_kde: 297
+    model__n_train: 16
+    model__n_uniform: 476
+    model__parsimony_coefficient: 0.07122670542962806
+    model__population_size: 837.2256945825407
+- parameters:
+    model__generations: 51.282426800417795
+    model__kde_bandwidth: 0.0005585410449485669
+    model__n_kde: 268
+    model__n_train: 45
+    model__n_uniform: 455
+    model__parsimony_coefficient: 0.008450621701178888
+    model__population_size: 995.7680689317049
+- parameters:
+    model__generations: 58.81393083447544
+    model__kde_bandwidth: 83992.19237943353
+    model__n_kde: 313
+    model__n_train: 75
+    model__n_uniform: 299
+    model__parsimony_coefficient: 0.07896529724573605
+    model__population_size: 594.5758337081169
+- parameters:
+    model__generations: 62.78589375238216
+    model__kde_bandwidth: 0.0013065911589241308
+    model__n_kde: 63
+    model__n_train: 85
+    model__n_uniform: 287
+    model__parsimony_coefficient: 0.04099848892073356
+    model__population_size: 725.2143085386922
+- parameters:
+    model__generations: 29.30515383277533
+    model__kde_bandwidth: 22576.260527377126
+    model__n_kde: 460
+    model__n_train: 79
+    model__n_uniform: 276
+    model__parsimony_coefficient: 0.032005420748455096
+    model__population_size: 807.7931182323327
+- parameters:
+    model__generations: 45.4556673346851
+    model__kde_bandwidth: 659.1445317867078
+    model__n_kde: 465
+    model__n_train: 22
+    model__n_uniform: 369
+    model__parsimony_coefficient: 0.014042615411332482
+    model__population_size: 776.4970726772694
+- parameters:
+    model__generations: 61.17297715310309
+    model__kde_bandwidth: 1.927486622000057e-06
+    model__n_kde: 21
+    model__n_train: 48
+    model__n_uniform: 246
+    model__parsimony_coefficient: 0.09760794390629525
+    model__population_size: 790.291238719049
+- parameters:
+    model__generations: 40.22697678911736
+    model__kde_bandwidth: 51.867403694527546
+    model__n_kde: 492
+    model__n_train: 17
+    model__n_uniform: 188
+    model__parsimony_coefficient: 0.09860183861329297
+    model__population_size: 946.4662795113859
+- parameters:
+    model__generations: 79.39462540756747
+    model__kde_bandwidth: 4.287011321048365e-06
+    model__n_kde: 161
+    model__n_train: 54
+    model__n_uniform: 439
+    model__parsimony_coefficient: 0.08297291105243894
+    model__population_size: 899.5605021703991
+- parameters:
+    model__generations: 21.157789836461312
+    model__kde_bandwidth: 287.1489246897624
+    model__n_kde: 71
+    model__n_train: 42
+    model__n_uniform: 188
+    model__parsimony_coefficient: 0.010570267116031323
+    model__population_size: 510.02463214245984
+- parameters:
+    model__generations: 81.7683873789235
+    model__kde_bandwidth: 0.000107276310977609
+    model__n_kde: 327
+    model__n_train: 51
+    model__n_uniform: 420
+    model__parsimony_coefficient: 0.050119229932594996
+    model__population_size: 584.4634832641095
+- parameters:
+    model__generations: 67.37819186353022
+    model__kde_bandwidth: 51991.425409540716
+    model__n_kde: 112
+    model__n_train: 76
+    model__n_uniform: 355
+    model__parsimony_coefficient: 0.020696493977826927
+    model__population_size: 826.0250376888375
+- parameters:
+    model__generations: 30.729706169302325
+    model__kde_bandwidth: 1.6835091092920364e-05
+    model__n_kde: 8
+    model__n_train: 33
+    model__n_uniform: 50
+    model__parsimony_coefficient: 0.08820982536606875
+    model__population_size: 916.2979277431914
+- parameters:
+    model__generations: 83.11355769385983
+    model__kde_bandwidth: 2.948564671481454
+    model__n_kde: 274
+    model__n_train: 14
+    model__n_uniform: 460
+    model__parsimony_coefficient: 0.03893083965663565
+    model__population_size: 634.2498169190018
+- parameters:
+    model__generations: 86.3518123795583
+    model__kde_bandwidth: 0.0009031930972974998
+    model__n_kde: 141
+    model__n_train: 57
+    model__n_uniform: 181
+    model__parsimony_coefficient: 0.027205862096785646
+    model__population_size: 943.7394124405669
+- parameters:
+    model__generations: 47.44524432568192
+    model__kde_bandwidth: 0.016367827043251428
+    model__n_kde: 385
+    model__n_train: 87
+    model__n_uniform: 82
+    model__parsimony_coefficient: 0.024098113773057935
+    model__population_size: 649.5177476213635
+- parameters:
+    model__generations: 98.11430595269118
+    model__kde_bandwidth: 0.00188208523603632
+    model__n_kde: 107
+    model__n_train: 30
+    model__n_uniform: 328
+    model__parsimony_coefficient: 0.0013976183207061788
+    model__population_size: 551.9741391867827
+- parameters:
+    model__generations: 94.02216426220731
+    model__kde_bandwidth: 98.66001309827637
+    model__n_kde: 386
+    model__n_train: 38
+    model__n_uniform: 49
+    model__parsimony_coefficient: 0.09469932051892471
+    model__population_size: 765.7077842506112
+- parameters:
+    model__generations: 35.279346490642936
+    model__kde_bandwidth: 1604.0324095701192
+    model__n_kde: 489
+    model__n_train: 67
+    model__n_uniform: 401
+    model__parsimony_coefficient: 0.0956078557787747
+    model__population_size: 950.1274589283395
+- parameters:
+    model__generations: 64.20983189417564
+    model__kde_bandwidth: 0.00037779149993222896
+    model__n_kde: 497
+    model__n_train: 89
+    model__n_uniform: 221
+    model__parsimony_coefficient: 0.0593275829673691
+    model__population_size: 523.4101730545891
+- parameters:
+    model__generations: 68.94586541088839
+    model__kde_bandwidth: 0.08032182559271364
+    model__n_kde: 231
+    model__n_train: 55
+    model__n_uniform: 159
+    model__parsimony_coefficient: 0.05522044614660108
+    model__population_size: 976.1220479765882
+- parameters:
+    model__generations: 33.84103090756964
+    model__kde_bandwidth: 11799.20825658026
+    model__n_kde: 47
+    model__n_train: 11
+    model__n_uniform: 278
+    model__parsimony_coefficient: 0.07251893038674614
+    model__population_size: 845.8574777002319
+- parameters:
+    model__generations: 48.8660422934731
+    model__kde_bandwidth: 166.24319558614206
+    model__n_kde: 201
+    model__n_train: 67
+    model__n_uniform: 119
+    model__parsimony_coefficient: 0.01948164771308968
+    model__population_size: 629.5579224302775
+- parameters:
+    model__generations: 57.47831030515739
+    model__kde_bandwidth: 20.483595970051258
+    model__n_kde: 119
+    model__n_train: 80
+    model__n_uniform: 99
+    model__parsimony_coefficient: 0.09936859959097846
+    model__population_size: 505.8597275930485
+- parameters:
+    model__generations: 48.215200623696234
+    model__kde_bandwidth: 369.95931437053
+    model__n_kde: 130
+    model__n_train: 15
+    model__n_uniform: 105
+    model__parsimony_coefficient: 0.0186895034023364
+    model__population_size: 841.358135900402
+- parameters:
+    model__generations: 46.47806559169223
+    model__kde_bandwidth: 14054.735404351306
+    model__n_kde: 122
+    model__n_train: 50
+    model__n_uniform: 243
+    model__parsimony_coefficient: 0.007445667128277783
+    model__population_size: 934.1617442695863
+- parameters:
+    model__generations: 65.8832511385739
+    model__kde_bandwidth: 0.22062365729843478
+    model__n_kde: 98
+    model__n_train: 16
+    model__n_uniform: 20
+    model__parsimony_coefficient: 0.05266472010303405
+    model__population_size: 911.808825956946
+- parameters:
+    model__generations: 99.42125335508953
+    model__kde_bandwidth: 0.469004100691534
+    model__n_kde: 258
+    model__n_train: 90
+    model__n_uniform: 403
+    model__parsimony_coefficient: 0.07367025169211008
+    model__population_size: 992.6513121182672
+- parameters:
+    model__generations: 70.54910893150323
+    model__kde_bandwidth: 7.020910447994239
+    model__n_kde: 181
+    model__n_train: 72
+    model__n_uniform: 78
+    model__parsimony_coefficient: 0.0648989173308137
+    model__population_size: 715.8947974945588
+- parameters:
+    model__generations: 93.53310957647153
+    model__kde_bandwidth: 5.340532284124817
+    model__n_kde: 51
+    model__n_train: 88
+    model__n_uniform: 485
+    model__parsimony_coefficient: 0.06523683358202886
+    model__population_size: 812.6399563342333
+- parameters:
+    model__generations: 50.396012620720214
+    model__kde_bandwidth: 131821.48893174023
+    model__n_kde: 405
+    model__n_train: 63
+    model__n_uniform: 203
+    model__parsimony_coefficient: 0.028343252210784285
+    model__population_size: 700.0077171440521
+- parameters:
+    model__generations: 20.725504864894834
+    model__kde_bandwidth: 1.3159414547537634e-06
+    model__n_kde: 467
+    model__n_train: 46
+    model__n_uniform: 270
+    model__parsimony_coefficient: 0.09381155238026552
+    model__population_size: 566.0749720686872
+- parameters:
+    model__generations: 96.60204024706769
+    model__kde_bandwidth: 1.478075912752907e-06
+    model__n_kde: 484
+    model__n_train: 26
+    model__n_uniform: 196
+    model__parsimony_coefficient: 0.07960135881540795
+    model__population_size: 891.3711886612066
+- parameters:
+    model__generations: 24.037647919002552
+    model__kde_bandwidth: 5.5116372513850176e-05
+    model__n_kde: 224
+    model__n_train: 32
+    model__n_uniform: 363
+    model__parsimony_coefficient: 0.044214356623460876
+    model__population_size: 982.1862558177712
+- parameters:
+    model__generations: 54.1516585175079
+    model__kde_bandwidth: 1.0485512560211538
+    model__n_kde: 335
+    model__n_train: 62
+    model__n_uniform: 164
+    model__parsimony_coefficient: 0.04633758733100496
+    model__population_size: 733.5207561164572
+- parameters:
+    model__generations: 71.53931530279158
+    model__kde_bandwidth: 728605.9061822712
+    model__n_kde: 257
+    model__n_train: 65
+    model__n_uniform: 17
+    model__parsimony_coefficient: 0.09665235221242059
+    model__population_size: 689.1549007486012
+- parameters:
+    model__generations: 44.38806723439271
+    model__kde_bandwidth: 2.205890294464272e-05
+    model__n_kde: 449
+    model__n_train: 21
+    model__n_uniform: 464
+    model__parsimony_coefficient: 0.09015436722177089
+    model__population_size: 531.192458308262
+- parameters:
+    model__generations: 94.64659492294831
+    model__kde_bandwidth: 525741.7396101167
+    model__n_kde: 74
+    model__n_train: 60
+    model__n_uniform: 290
+    model__parsimony_coefficient: 0.048250706336830554
+    model__population_size: 665.4775477087414
+- parameters:
+    model__generations: 45.75534925871608
+    model__kde_bandwidth: 27.650006767004413
+    model__n_kde: 194
+    model__n_train: 35
+    model__n_uniform: 348
+    model__parsimony_coefficient: 0.009616748620336749
+    model__population_size: 677.2896753389523
+- parameters:
+    model__generations: 43.4501323393389
+    model__kde_bandwidth: 1.1378433514934368e-05
+    model__n_kde: 204
+    model__n_train: 23
+    model__n_uniform: 7
+    model__parsimony_coefficient: 0.0690760609920119
+    model__population_size: 770.9795843578952
+- parameters:
+    model__generations: 61.94740247346491
+    model__kde_bandwidth: 0.002460281223374418
+    model__n_kde: 103
+    model__n_train: 70
+    model__n_uniform: 466
+    model__parsimony_coefficient: 0.022027176074772236
+    model__population_size: 615.2035710958148
+- parameters:
+    model__generations: 87.57694636017428
+    model__kde_bandwidth: 0.0001417086327478706
+    model__n_kde: 192
+    model__n_train: 41
+    model__n_uniform: 85
+    model__parsimony_coefficient: 0.068976246395784
+    model__population_size: 938.2948378651579
+- parameters:
+    model__generations: 31.56080035435176
+    model__kde_bandwidth: 148516.02606963718
+    model__n_kde: 168
+    model__n_train: 56
+    model__n_uniform: 336
+    model__parsimony_coefficient: 0.061602939343504734
+    model__population_size: 504.22585301366126
+- parameters:
+    model__generations: 86.81968494549177
+    model__kde_bandwidth: 0.16467495864800397
+    model__n_kde: 294
+    model__n_train: 81
+    model__n_uniform: 171
+    model__parsimony_coefficient: 0.016468898901554643
+    model__population_size: 621.5088064696396
+- parameters:
+    model__generations: 72.54818946293358
+    model__kde_bandwidth: 141.126085351087
+    model__n_kde: 414
+    model__n_train: 22
+    model__n_uniform: 393
+    model__parsimony_coefficient: 0.03502502352284118
+    model__population_size: 664.4254795138179
+- parameters:
+    model__generations: 37.404121183686584
+    model__kde_bandwidth: 0.00032867015539832933
+    model__n_kde: 239
+    model__n_train: 61
+    model__n_uniform: 360
+    model__parsimony_coefficient: 0.05895263952444419
+    model__population_size: 638.8218098274817
+- parameters:
+    model__generations: 54.68642311885154
+    model__kde_bandwidth: 41.82266633182807
+    model__n_kde: 337
+    model__n_train: 25
+    model__n_uniform: 450
+    model__parsimony_coefficient: 0.04507993754528818
+    model__population_size: 761.6842697165255
+- parameters:
+    model__generations: 34.93653763537794
+    model__kde_bandwidth: 0.4113803656364218
+    model__n_kde: 150
+    model__n_train: 52
+    model__n_uniform: 263
+    model__parsimony_coefficient: 0.033905659426835794
+    model__population_size: 722.7514487296378
+- parameters:
+    model__generations: 38.10311150456066
+    model__kde_bandwidth: 193126.21728514123
+    model__n_kde: 323
+    model__n_train: 47
+    model__n_uniform: 500
+    model__parsimony_coefficient: 0.08417901305188343
+    model__population_size: 741.9313376190432
+- parameters:
+    model__generations: 68.2483476223976
+    model__kde_bandwidth: 2514.6285039699
+    model__n_kde: 279
+    model__n_train: 37
+    model__n_uniform: 312
+    model__parsimony_coefficient: 0.04785857342841232
+    model__population_size: 972.557455025174
+- parameters:
+    model__generations: 60.296615331778334
+    model__kde_bandwidth: 4.686233001701304e-05
+    model__n_kde: 91
+    model__n_train: 82
+    model__n_uniform: 226
+    model__parsimony_coefficient: 0.07492691868362725
+    model__population_size: 541.4061023156777
+- parameters:
+    model__generations: 76.54762791103545
+    model__kde_bandwidth: 29802.25262485212
+    model__n_kde: 346
+    model__n_train: 83
+    model__n_uniform: 376
+    model__parsimony_coefficient: 0.08625781521240798
+    model__population_size: 789.0220169183624
+- parameters:
+    model__generations: 75.10882402902662
+    model__kde_bandwidth: 1744.6147301112087
+    model__n_kde: 440
+    model__n_train: 39
+    model__n_uniform: 317
+    model__parsimony_coefficient: 0.03255477530599926
+    model__population_size: 736.6367605290859
+name: gplearn
+shared:
+  module: experiments.gplearn_experiment
+  parameters:
+    data_file: circle_0_01_noise.csv
+  random_state: 42

@@ -15,7 +15,7 @@ def induced_kl_divergence(
     mean_center_on: str | List[str] | None = None,
 ) -> float:
     f_vals = f_vals.astype(np.float64)
-    epsilon = 1e-10
+    epsilon = 1e-15
 
     if mean_center_on is not None:
         if isinstance(mean_center_on, str):
@@ -40,11 +40,17 @@ def induced_kl_divergence(
     reference_dist_unnorm = reference_dist.pdf(sampler.samples)
 
     candidate_dist_norm = candidate_dist_unnorm / (
-        np.sum(candidate_dist_unnorm) + epsilon
+        np.sum(sampler.weights * candidate_dist_unnorm) + epsilon
     )
     reference_dist_norm = reference_dist_unnorm / (
-        np.sum(reference_dist_unnorm) + epsilon
+        np.sum(sampler.weights * reference_dist_unnorm) + epsilon
     )
+    # candidate_dist_norm = candidate_dist_unnorm / (
+    #     np.sum(candidate_dist_unnorm) + epsilon
+    # )
+    # reference_dist_norm = reference_dist_unnorm / (
+    #     np.sum(reference_dist_unnorm) + epsilon
+    # )
 
     log_dist_ratio = np.log(
         (reference_dist_norm + epsilon) / (candidate_dist_norm + epsilon)

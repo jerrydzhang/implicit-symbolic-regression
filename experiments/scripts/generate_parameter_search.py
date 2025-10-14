@@ -1,87 +1,100 @@
+import copy
 import pathlib
-
-import numpy as np
 import yaml
+import numpy as np
 from scipy.stats import qmc
 
-out = "gplearn_wide_search.yaml"
-file = "gplearn_header.yaml"
-n_experiments = 100
-param_ranges = {
+# --- Configuration ---
+OUTPUT_FILE = "zhong_noiseless.yaml"
+BASE_CONFIG_FILE = "gplearn_header.yaml"
+N_EXPERIMENTS = 60
+DATA_FILES = [f"zhong/f{n:02d}/f{n:02d}.csv" for n in range(1, 24)]
+
+PARAM_RANGES = {
     "model__kde_bandwidth": (1e-6, 1e6),
-    "model__n_train": (10, 90),
     "model__n_kde": (5, 500),
     "model__n_uniform": (5, 500),
-    # gplearn specific
+    # GpLearn specific parameters
     "model__population_size": (500, 1000),
     "model__generations": (20, 100),
     "model__parsimony_coefficient": (1e-5, 1e-1),
 }
-log_params = ["model__kde_bandwidth"]
-int_params = ["model__n_train", "model__n_kde", "model__n_uniform"]
+LOG_PARAMS = {"model__kde_bandwidth", "model__parsimony_coefficient"}
+INT_PARAMS = {
+    "model__n_kde",
+    "model__n_uniform",
+    "model__population_size",
+    "model__generations",
+}
 
-inital_yaml = pathlib.Path(__file__).parent.parent / file
 
-with open(inital_yaml, "r") as f:
-    base_config = yaml.safe_load(f)
+def generate_samples(n_samples, param_ranges, log_params, int_params):
+    """Generates hyperparameter samples using Latin Hypercube Sampling."""
+    all_names = list(param_ranges.keys())
+    log_names = [name for name in all_names if name in log_params]
+    linear_names = [name for name in all_names if name not in log_params]
 
-# Get the linear and log bounds separately
-linear_bounds = []
-log_bounds = []
-param_names = list(param_ranges.keys())
+    def sample_group(names, is_log_scale):
+        if not names:
+            return np.array([[] for _ in range(n_samples)])
 
-for name in param_names:
-    l_bound, u_bound = param_ranges[name]
-    if name in log_params:
-        log_bounds.append((np.log10(l_bound), np.log10(u_bound)))
-    else:
-        linear_bounds.append((l_bound, u_bound))
+        bounds = [param_ranges[name] for name in names]
+        l_bounds = [b[0] for b in bounds]
+        u_bounds = [b[1] for b in bounds]
 
-# Create separate samplers for log and linear parameters
-sampler_log = qmc.LatinHypercube(d=len(log_params))
-sampler_linear = qmc.LatinHypercube(d=len(param_names) - len(log_params))
+        if is_log_scale:
+            l_bounds = np.log10(l_bounds)
+            u_bounds = np.log10(u_bounds)
 
-# Sample in log space and then scale
-log_sample = sampler_log.random(n=n_experiments)
-log_sample_scaled = qmc.scale(
-    log_sample,
-    l_bounds=[v[0] for v in log_bounds],
-    u_bounds=[v[1] for v in log_bounds],
-)
+        sampler = qmc.LatinHypercube(d=len(names))
+        samples = sampler.random(n=n_samples)
+        scaled_samples = qmc.scale(samples, l_bounds, u_bounds)
 
-# Sample in linear space and then scale
-if linear_bounds:
-    linear_sample = sampler_linear.random(n=n_experiments)
-    linear_sample_scaled = qmc.scale(
-        linear_sample,
-        l_bounds=[v[0] for v in linear_bounds],
-        u_bounds=[v[1] for v in linear_bounds],
+        return 10**scaled_samples if is_log_scale else scaled_samples
+
+    scaled_log_samples = sample_group(log_names, is_log_scale=True)
+    scaled_linear_samples = sample_group(linear_names, is_log_scale=False)
+
+    experiments = []
+    for i in range(n_samples):
+        params = {}
+        log_vals = dict(zip(log_names, scaled_log_samples[i]))
+        linear_vals = dict(zip(linear_names, scaled_linear_samples[i]))
+
+        for name, value in log_vals.items():
+            params[name] = float(value)
+
+        for name, value in linear_vals.items():
+            params[name] = int(round(value)) if name in int_params else float(value)
+
+        experiments.append({"parameters": params})
+    return experiments
+
+
+def main():
+    """Generates and saves the YAML configuration for experiments."""
+    script_dir = pathlib.Path(__file__).parent
+    base_config_path = script_dir.parent / BASE_CONFIG_FILE
+    with open(base_config_path, "r") as f:
+        config = yaml.safe_load(f)
+
+    sampled_params = generate_samples(
+        N_EXPERIMENTS, PARAM_RANGES, LOG_PARAMS, INT_PARAMS
     )
 
-print(f"Generating {n_experiments} configurations in {out}")
+    final_params = []
+    for data_file in DATA_FILES:
+        for sample in sampled_params:
+            param_copy = copy.deepcopy(sample)
+            param_copy["parameters"]["data_file"] = data_file
+            final_params.append(param_copy)
 
-sampled_params = []
-for i in range(n_experiments):
-    single_param = {"parameters": {}}
-    log_values = 10 ** log_sample_scaled[i]
-    linear_values = linear_sample_scaled[i] if linear_bounds else []
+    print(f"Generating {len(final_params)} experiments...")
+    config["experiments"] = final_params
+    output_yaml_path = script_dir.parent / OUTPUT_FILE
+    with open(output_yaml_path, "w") as f:
+        yaml.dump(config, f, sort_keys=False)
 
-    log_idx, linear_idx = 0, 0
-    for name in param_names:
-        if name in log_params:
-            single_param["parameters"][name] = float(log_values[log_idx])
-            log_idx += 1
-        else:
-            if name in int_params:
-                single_param["parameters"][name] = int(round(linear_values[linear_idx]))
-            else:
-                single_param["parameters"][name] = float(linear_values[linear_idx])
-            linear_idx += 1
 
-    sampled_params.append(single_param)
-
-config = base_config.copy()
-config["experiments"] = sampled_params
-output_yaml = pathlib.Path(__file__).parent.parent / out
-with open(output_yaml, "w") as f:
-    yaml.dump(config, f)
+if __name__ == "__main__":
+    main()
