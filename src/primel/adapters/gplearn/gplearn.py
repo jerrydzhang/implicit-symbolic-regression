@@ -1,25 +1,41 @@
-from typing import Self
-from dataclasses import dataclass
 import warnings
+from dataclasses import dataclass
+from typing import Self
 
 import numpy as np
+from typing import List
 from gplearn.fitness import make_fitness
-
-from primel.samplers import ImportanceSampler
-from primel.distributions import Distribution
-from primel.fitness import induced_kl_divergence
-from primel.early_stopping import EarlyStopping
 
 # Patch gplearn until https://github.com/trevorstephens/gplearn/issues/303
 # is resolved
 from gplearn.genetic import BaseSymbolic
+from gplearn.functions import _Function
 from sklearn.utils.validation import validate_data
 
-BaseSymbolic._validate_data = lambda self, *args, **kwargs: validate_data(
+from primel.distributions import Distribution
+from primel.early_stopping import EarlyStopping
+from primel.fitness import induced_kl_divergence
+from primel.samplers import ImportanceSampler
+from primel.tree import ExpressionTree, Node
+
+BaseSymbolic._validate_data = lambda self, *args, **kwargs: validate_data(  # type: ignore
     self,
     *args,
     **kwargs,
 )
+
+
+def convert_tree(tree: List[_Function]) -> ExpressionTree:
+    nodes = []
+    for node in tree:
+        if isinstance(node, _Function):
+            nodes.append(Node(name=node.name, value=node.function, arity=node.arity))
+        elif isinstance(node, (int, float)):
+            nodes.append(Node(name="constant", value=node, arity=0))
+        else:
+            raise ValueError(f"Unsupported node type: {type(node)}")
+
+    return ExpressionTree.init_from_list(nodes)
 
 
 @dataclass
@@ -28,8 +44,7 @@ class GPLearnAdapter:
     reference_distribution: Distribution
     early_stopping: EarlyStopping | None = None
 
-    # Controls if early stopping is active to allow computing the actual
-    # kl value
+    # Controls if early stopping is active to allow computing the actual kl value
     eval: bool = False
 
     lambda_: float = 1.0
@@ -67,9 +82,6 @@ class GPLearnAdapter:
 
             if self.early_stopping is not None:
                 if self.early_stopping.check(y_pred):
-                    # print(
-                    #     "Early stopping criteria met. Stopping GP evolution.",
-                    # )
                     score = 0.0
 
             return score

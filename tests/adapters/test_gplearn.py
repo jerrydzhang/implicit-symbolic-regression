@@ -3,11 +3,12 @@ import pytest
 
 # Skip all tests in this module if gplearn is not installed
 gplearn = pytest.importorskip("gplearn")
+
 from gplearn.fitness import _Fitness
 
-from primel.adapters.gplearn import GPLearnAdapter
-from primel.samplers import ImportanceSampler, RandomSampler
+from primel.adapters.gplearn import GPLearnAdapter, convert_tree
 from primel.distributions import MultivariateUniform
+from primel.samplers import ImportanceSampler, RandomSampler
 
 
 @pytest.fixture
@@ -38,3 +39,7 @@ def test_gplearn_adapter_get_fitness(sampler, reference_dist):
     fitness_function = adapter.get_fitness()
     assert isinstance(fitness_function, _Fitness)
     assert not fitness_function.greater_is_better
+
+
+def test_gplearn_build_tree():
+    pass
