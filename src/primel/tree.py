@@ -55,8 +55,9 @@ class ExpressionTree:
         size = 1
         child_index = node_index + 1
         for _ in range(node.arity):
-            size += self._subtree_size(child_index)
-            child_index += self._subtree_size(child_index)
+            child_size = self._subtree_size(child_index)
+            size += child_size
+            child_index += child_size
         return size
 
     def add_node(
@@ -123,24 +124,39 @@ class ExpressionTree:
         ]
 
     def evaluate(self: Self, X: np.ndarray, index: int = 0) -> np.ndarray:
-        def _eval(note_index: int) -> np.ndarray:
-            node = self.nodes[note_index]
-            if node.arity == 0:
-                # return node.value(X)
-                if callable(node.value):
-                    return node.value(X)
-                else:
-                    return np.full(X.shape[0], node.value)
-            else:
-                child_indices = []
-                child_index = note_index + 1
-                for _ in range(node.arity):
-                    child_indices.append(child_index)
-                    child_index += self._subtree_size(child_index)
-                child_values = [_eval(idx) for idx in child_indices]
-                return node.value(*child_values)
+        """
+        Evaluates the expression tree at a given node index.
 
-        return _eval(index)
+        This implementation is optimized to avoid repeated calculations of subtree
+        sizes, which was a major performance bottleneck in the previous version.
+        It uses a single recursive function that evaluates a node and
+        simultaneously computes the size of the subtree rooted at that node.
+        This avoids the need for separate, repeated calls to a `_subtree_size`
+        method during evaluation.
+        """
+
+        def _eval(node_index: int) -> tuple[np.ndarray, int]:
+            """Recursively evaluates a subtree and returns the result and its size."""
+            node = self.nodes[node_index]
+            size = 1
+            if node.arity == 0:
+                if callable(node.value):
+                    val = node.value(X)
+                else:
+                    val = np.full(X.shape[0], node.value)
+                return val, size
+            else:
+                child_values = []
+                child_index = node_index + 1
+                for _ in range(node.arity):
+                    child_val, child_size = _eval(child_index)
+                    child_values.append(child_val)
+                    child_index += child_size
+                    size += child_size
+                return node.value(*child_values), size
+
+        val, _ = _eval(index)
+        return val
 
 
 def simplify_tree(tree: ExpressionTree, X: np.ndarray) -> None:

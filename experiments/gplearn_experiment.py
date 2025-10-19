@@ -122,23 +122,30 @@ class GpLearnExperiment(Experiment):
                     _log1,
                 ],
                 adapter=adapter,
-                population_size=config["model__population_size"],
-                generations=config["model__generations"],
-                parsimony_coefficient=config["model__parsimony_coefficient"],
+                # population_size=config["model__population_size"],
+                # generations=config["model__generations"],
+                # parsimony_coefficient=config["model__parsimony_coefficient"],
+                population_size=1000,
+                generations=100,
+                parsimony_coefficient="auto",
                 verbose=1,
+                low_memory=True,
                 random_state=rs,
             )
 
             models.append(model)
 
-        with ProcessPoolExecutor() as executor:
-            results = executor.map(
-                _fit_model,
-                models,
-                [sampler] * len(models),
-            )
+        for model in models:
+            model.fit(sampler.samples, np.zeros(sampler.samples.shape[0]))
 
-        models = list(results)
+        # with ProcessPoolExecutor() as executor:
+        #     results = executor.map(
+        #         _fit_model,
+        #         models,
+        #         [sampler] * len(models),
+        #     )
+        #
+        # models = list(results)
         self.metrics = {
             f"trial_{i}": self._compute_metrics(model, sampler, gaussian_kde_dist)
             for i, model in enumerate(models)
