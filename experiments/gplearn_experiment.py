@@ -5,10 +5,9 @@ from typing import Any, Dict, List, Self
 
 import numpy as np
 from gplearn.functions import make_function
-from gplearn.genetic import SymbolicRegressor
 from jernerics.experiment import Experiment
 
-from primel.adapters.gplearn import GPLearnAdapter
+from primel.adapters.gplearn import GPLearnAdapter, ImplicitSymbolicRegressor
 from primel.distributions import (
     Empirical,
     GaussianKDE,
@@ -42,9 +41,9 @@ _log1 = make_function(function=_protected_log, name="log", arity=1)
 
 
 def _fit_model(
-    model: SymbolicRegressor,
+    model: ImplicitSymbolicRegressor,
     sampler: ImportanceSampler,
-) -> SymbolicRegressor:
+) -> ImplicitSymbolicRegressor:
     model.fit(sampler.samples, np.zeros(sampler.samples.shape[0]))
     return model
 
@@ -59,7 +58,9 @@ class GpLearnExperiment(Experiment):
         data = np.loadtxt(data_path, delimiter=",")
         return data
 
-    def save_model(self: Self, result_path: Path, model: SymbolicRegressor) -> None:
+    def save_model(
+        self: Self, result_path: Path, model: ImplicitSymbolicRegressor
+    ) -> None:
         pass
         # model_path = result_path / f"{self.task_id}_model.pkl"
         # with open(model_path, "wb") as f:
@@ -108,7 +109,7 @@ class GpLearnExperiment(Experiment):
                 exponent=1.0,
             )
 
-            model = SymbolicRegressor(
+            model = ImplicitSymbolicRegressor(
                 function_set=[
                     "add",
                     "sub",
@@ -120,11 +121,10 @@ class GpLearnExperiment(Experiment):
                     "sqrt",
                     _log1,
                 ],
-                metric=adapter.get_fitness(),  # type: ignore
+                adapter=adapter,
                 population_size=config["model__population_size"],
                 generations=config["model__generations"],
                 parsimony_coefficient=config["model__parsimony_coefficient"],
-                stopping_criteria=0.0,
                 verbose=1,
                 random_state=rs,
             )
@@ -146,7 +146,7 @@ class GpLearnExperiment(Experiment):
 
     def _compute_metrics(
         self: Self,
-        model: SymbolicRegressor,
+        model: ImplicitSymbolicRegressor,
         sampler: ImportanceSampler,
         ref_dist: GaussianKDE,
     ) -> dict:
@@ -159,14 +159,14 @@ class GpLearnExperiment(Experiment):
         )
 
         return {
-            "success": True,
+            "success": model.early_stopped,
             "kl_divergence": kl_div,
             "equation": model._program.__str__(),
         }
 
     def evaluate(
         self: Self,
-        model: SymbolicRegressor,
+        model: ImplicitSymbolicRegressor,
         data: np.ndarray,
         config: dict,
     ) -> dict:

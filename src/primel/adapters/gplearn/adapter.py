@@ -1,41 +1,12 @@
-import warnings
 from dataclasses import dataclass
-from typing import Self
 
 import numpy as np
-from typing import List
 from gplearn.fitness import make_fitness
-
-# Patch gplearn until https://github.com/trevorstephens/gplearn/issues/303
-# is resolved
-from gplearn.genetic import BaseSymbolic
-from gplearn.functions import _Function
-from sklearn.utils.validation import validate_data
 
 from primel.distributions import Distribution
 from primel.early_stopping import EarlyStopping
 from primel.fitness import induced_kl_divergence
 from primel.samplers import ImportanceSampler
-from primel.tree import ExpressionTree, Node
-
-BaseSymbolic._validate_data = lambda self, *args, **kwargs: validate_data(  # type: ignore
-    self,
-    *args,
-    **kwargs,
-)
-
-
-def convert_tree(tree: List[_Function]) -> ExpressionTree:
-    nodes = []
-    for node in tree:
-        if isinstance(node, _Function):
-            nodes.append(Node(name=node.name, value=node.function, arity=node.arity))
-        elif isinstance(node, (int, float)):
-            nodes.append(Node(name="constant", value=node, arity=0))
-        else:
-            raise ValueError(f"Unsupported node type: {type(node)}")
-
-    return ExpressionTree.init_from_list(nodes)
 
 
 @dataclass
@@ -79,10 +50,6 @@ class GPLearnAdapter:
                 exponent=self.exponent,
                 mean_center_on=self.mean_center_on,
             )
-
-            if self.early_stopping is not None:
-                if self.early_stopping.check(y_pred):
-                    score = 0.0
 
             return score
 

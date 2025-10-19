@@ -1,1 +1,2 @@
-from .gplearn import GPLearnAdapter
+from .adapter import GPLearnAdapter
+from .model import ImplicitSymbolicRegressor

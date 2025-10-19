@@ -1,14 +1,9 @@
 from dataclasses import dataclass, field
-from typing import Callable, List, Self
+from typing import List, Self
 import numpy as np
 
 from .samplers import ImportanceSampler
 from .fitness import train_val_variance_split
-
-
-def compute_variance(eval_func: Callable, X: np.ndarray) -> float:
-    y = eval_func(X)
-    return np.var(y).item()
 
 
 @dataclass
