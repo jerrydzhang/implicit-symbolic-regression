@@ -11,7 +11,7 @@ N_EXPERIMENTS = 30
 DATA_FILES = [f"zhong/f{n:02d}/f{n:02d}.csv" for n in range(1, 24)]
 
 PARAM_RANGES = {
-    "model__kde_bandwidth": (1e-6, 1e6),
+    "model__kde_bandwidth": (1e-6, 1e0),
     "model__n_kde": (5, 500),
     "model__n_uniform": (5, 500),
     # GpLearn specific parameters

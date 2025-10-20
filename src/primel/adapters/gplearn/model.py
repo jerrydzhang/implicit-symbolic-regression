@@ -74,6 +74,7 @@ class ImplicitSymbolicRegressor(SymbolicRegressor):
         init_method="half and half",
         function_set=("add", "sub", "mul", "div"),
         adapter: GPLearnAdapter,
+        max_length=1000,
         parsimony_coefficient=0.001,
         p_crossover=0.9,
         p_subtree_mutation=0.01,
@@ -114,6 +115,7 @@ class ImplicitSymbolicRegressor(SymbolicRegressor):
         )
         self.adapter = adapter
         self.early_stopped = False
+        self.max_length = max_length
 
     def fit(self, X, y, sample_weight=None):
         """Fit the Genetic Program according to X, y.
@@ -435,6 +437,14 @@ class ImplicitSymbolicRegressor(SymbolicRegressor):
                     if self.verbose:
                         print(f"Early stopping triggered at generation {gen}.")
                     break
+
+            if len(best_program.program) > self.max_length:
+                if self.verbose:
+                    print(
+                        f"Early stopping triggered at generation {gen} "
+                        f"due to program length exceeding {self.max_length}."
+                    )
+                break
 
         if isinstance(self, TransformerMixin):
             # Find the best individuals in the final generation

@@ -7,9 +7,9 @@ shared:
     n_trials: 30
 experiments:
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
+    model__kde_bandwidth: 0.0000197892885368
+    model__n_kde: 50
+    model__n_uniform: 100
     data_file: zhong/f01/f01.csv
 - parameters:
     model__kde_bandwidth: 204.5801574341711

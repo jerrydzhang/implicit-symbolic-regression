@@ -91,21 +91,6 @@ class ExpressionTree:
         # Replace the original subtree slice with the child's full subtree.
         self.nodes[node_index : node_index + size_to_replace] = child_subtree
 
-    # def replace_node_with_child(
-    #     self: Self,
-    #     node_index: int,
-    #     replaced_by_child: int,
-    # ):
-    #     if self.nodes[node_index].arity == 0:
-    #         del self.nodes[node_index]
-    #     else:
-    #         child_index = node_index + 1
-    #         for _ in range(replaced_by_child):
-    #             child_index += self._subtree_size(child_index)
-    #         child = self.nodes[child_index]
-    #         size = self._subtree_size(node_index)
-    #         self.nodes[node_index : node_index + size] = [child]
-
     def remove_subtree(self: Self, node_index: int):
         size = self._subtree_size(node_index)
         del self.nodes[node_index : node_index + size]

@@ -125,6 +125,7 @@ class GpLearnExperiment(Experiment):
                 # population_size=config["model__population_size"],
                 # generations=config["model__generations"],
                 # parsimony_coefficient=config["model__parsimony_coefficient"],
+                max_length=100,
                 population_size=1000,
                 generations=100,
                 parsimony_coefficient="auto",
@@ -138,6 +139,10 @@ class GpLearnExperiment(Experiment):
         for model in models:
             model.fit(sampler.samples, np.zeros(sampler.samples.shape[0]))
 
+            self.metrics[f"trial_{len(self.metrics)}"] = self._compute_metrics(
+                model, sampler, gaussian_kde_dist
+            )
+
         # with ProcessPoolExecutor() as executor:
         #     results = executor.map(
         #         _fit_model,
@@ -146,10 +151,10 @@ class GpLearnExperiment(Experiment):
         #     )
         #
         # models = list(results)
-        self.metrics = {
-            f"trial_{i}": self._compute_metrics(model, sampler, gaussian_kde_dist)
-            for i, model in enumerate(models)
-        }
+        # self.metrics = {
+        #     f"trial_{i}": self._compute_metrics(model, sampler, gaussian_kde_dist)
+        #     for i, model in enumerate(models)
+        # }
 
     def _compute_metrics(
         self: Self,
