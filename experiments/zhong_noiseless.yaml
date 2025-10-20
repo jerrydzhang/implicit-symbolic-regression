@@ -7,3452 +7,3452 @@ shared:
     n_trials: 30
 experiments:
 - parameters:
-    model__kde_bandwidth: 0.0000197892885368
-    model__n_kde: 50
-    model__n_uniform: 100
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f01/f01.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f01/f01.csv
 - parameters:
-    model__kde_bandwidth: 372.17169396832526
-    model__n_kde: 297
-    model__n_uniform: 333
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f01/f01.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f01/f01.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f01/f01.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f01/f01.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f01/f01.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f01/f01.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f01/f01.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f01/f01.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f01/f01.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f01/f01.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f01/f01.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f01/f01.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f01/f01.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
-    data_file: zhong/f01/f01.csv
-- parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
-    data_file: zhong/f01/f01.csv
-- parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f01/f01.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f01/f01.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f01/f01.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f01/f01.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f01/f01.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f01/f01.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f01/f01.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f01/f01.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f01/f01.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f01/f01.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f01/f01.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f01/f01.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
     data_file: zhong/f01/f01.csv
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
-    data_file: zhong/f02/f02.csv
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f01/f01.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
-    data_file: zhong/f02/f02.csv
-- parameters:
-    model__kde_bandwidth: 372.17169396832526
+    model__kde_bandwidth: 0.07057933833811564
     model__n_kde: 297
-    model__n_uniform: 333
+    model__n_uniform: 242
+    data_file: zhong/f01/f01.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f01/f01.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f01/f01.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f01/f01.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f01/f01.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f01/f01.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f01/f01.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
+    data_file: zhong/f01/f01.csv
+- parameters:
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f02/f02.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f02/f02.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f02/f02.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f02/f02.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f02/f02.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f02/f02.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f02/f02.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f02/f02.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f02/f02.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f02/f02.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f02/f02.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f02/f02.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f02/f02.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f02/f02.csv
 - parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f02/f02.csv
 - parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f02/f02.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f02/f02.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f02/f02.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f02/f02.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f02/f02.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f02/f02.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f02/f02.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f02/f02.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f02/f02.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f02/f02.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f02/f02.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f02/f02.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
     data_file: zhong/f02/f02.csv
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
-    data_file: zhong/f03/f03.csv
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f02/f02.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
-    data_file: zhong/f03/f03.csv
-- parameters:
-    model__kde_bandwidth: 372.17169396832526
+    model__kde_bandwidth: 0.07057933833811564
     model__n_kde: 297
-    model__n_uniform: 333
+    model__n_uniform: 242
+    data_file: zhong/f02/f02.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f02/f02.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f02/f02.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f02/f02.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f02/f02.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f02/f02.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f02/f02.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
+    data_file: zhong/f02/f02.csv
+- parameters:
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f03/f03.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f03/f03.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f03/f03.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f03/f03.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f03/f03.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f03/f03.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f03/f03.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f03/f03.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f03/f03.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f03/f03.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f03/f03.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f03/f03.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f03/f03.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f03/f03.csv
 - parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f03/f03.csv
 - parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f03/f03.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f03/f03.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f03/f03.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f03/f03.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f03/f03.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f03/f03.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f03/f03.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f03/f03.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f03/f03.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f03/f03.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f03/f03.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f03/f03.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
     data_file: zhong/f03/f03.csv
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
-    data_file: zhong/f04/f04.csv
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f03/f03.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
-    data_file: zhong/f04/f04.csv
-- parameters:
-    model__kde_bandwidth: 372.17169396832526
+    model__kde_bandwidth: 0.07057933833811564
     model__n_kde: 297
-    model__n_uniform: 333
+    model__n_uniform: 242
+    data_file: zhong/f03/f03.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f03/f03.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f03/f03.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f03/f03.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f03/f03.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f03/f03.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f03/f03.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
+    data_file: zhong/f03/f03.csv
+- parameters:
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f04/f04.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f04/f04.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f04/f04.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f04/f04.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f04/f04.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f04/f04.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f04/f04.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f04/f04.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f04/f04.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f04/f04.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f04/f04.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f04/f04.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f04/f04.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f04/f04.csv
 - parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f04/f04.csv
 - parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f04/f04.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f04/f04.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f04/f04.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f04/f04.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f04/f04.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f04/f04.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f04/f04.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f04/f04.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f04/f04.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f04/f04.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f04/f04.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f04/f04.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
     data_file: zhong/f04/f04.csv
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
-    data_file: zhong/f05/f05.csv
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f04/f04.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
-    data_file: zhong/f05/f05.csv
-- parameters:
-    model__kde_bandwidth: 372.17169396832526
+    model__kde_bandwidth: 0.07057933833811564
     model__n_kde: 297
-    model__n_uniform: 333
+    model__n_uniform: 242
+    data_file: zhong/f04/f04.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f04/f04.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f04/f04.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f04/f04.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f04/f04.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f04/f04.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f04/f04.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
+    data_file: zhong/f04/f04.csv
+- parameters:
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f05/f05.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f05/f05.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f05/f05.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f05/f05.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f05/f05.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f05/f05.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f05/f05.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f05/f05.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f05/f05.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f05/f05.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f05/f05.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f05/f05.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f05/f05.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f05/f05.csv
 - parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f05/f05.csv
 - parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f05/f05.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f05/f05.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f05/f05.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f05/f05.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f05/f05.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f05/f05.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f05/f05.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f05/f05.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f05/f05.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f05/f05.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f05/f05.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f05/f05.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
     data_file: zhong/f05/f05.csv
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
-    data_file: zhong/f06/f06.csv
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f05/f05.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
-    data_file: zhong/f06/f06.csv
-- parameters:
-    model__kde_bandwidth: 372.17169396832526
+    model__kde_bandwidth: 0.07057933833811564
     model__n_kde: 297
-    model__n_uniform: 333
+    model__n_uniform: 242
+    data_file: zhong/f05/f05.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f05/f05.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f05/f05.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f05/f05.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f05/f05.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f05/f05.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f05/f05.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
+    data_file: zhong/f05/f05.csv
+- parameters:
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f06/f06.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f06/f06.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f06/f06.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f06/f06.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f06/f06.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f06/f06.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f06/f06.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f06/f06.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f06/f06.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f06/f06.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f06/f06.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f06/f06.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f06/f06.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f06/f06.csv
 - parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f06/f06.csv
 - parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f06/f06.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f06/f06.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f06/f06.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f06/f06.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f06/f06.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f06/f06.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f06/f06.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f06/f06.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f06/f06.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f06/f06.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f06/f06.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f06/f06.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
     data_file: zhong/f06/f06.csv
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
-    data_file: zhong/f07/f07.csv
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f06/f06.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
-    data_file: zhong/f07/f07.csv
-- parameters:
-    model__kde_bandwidth: 372.17169396832526
+    model__kde_bandwidth: 0.07057933833811564
     model__n_kde: 297
-    model__n_uniform: 333
+    model__n_uniform: 242
+    data_file: zhong/f06/f06.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f06/f06.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f06/f06.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f06/f06.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f06/f06.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f06/f06.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f06/f06.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
+    data_file: zhong/f06/f06.csv
+- parameters:
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f07/f07.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f07/f07.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f07/f07.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f07/f07.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f07/f07.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f07/f07.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f07/f07.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f07/f07.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f07/f07.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f07/f07.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f07/f07.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f07/f07.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f07/f07.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f07/f07.csv
 - parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f07/f07.csv
 - parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f07/f07.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f07/f07.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f07/f07.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f07/f07.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f07/f07.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f07/f07.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f07/f07.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f07/f07.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f07/f07.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f07/f07.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f07/f07.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f07/f07.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
     data_file: zhong/f07/f07.csv
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
-    data_file: zhong/f08/f08.csv
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f07/f07.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
-    data_file: zhong/f08/f08.csv
-- parameters:
-    model__kde_bandwidth: 372.17169396832526
+    model__kde_bandwidth: 0.07057933833811564
     model__n_kde: 297
-    model__n_uniform: 333
+    model__n_uniform: 242
+    data_file: zhong/f07/f07.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f07/f07.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f07/f07.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f07/f07.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f07/f07.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f07/f07.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f07/f07.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
+    data_file: zhong/f07/f07.csv
+- parameters:
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f08/f08.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f08/f08.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f08/f08.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f08/f08.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f08/f08.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f08/f08.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f08/f08.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f08/f08.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f08/f08.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f08/f08.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f08/f08.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f08/f08.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f08/f08.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f08/f08.csv
 - parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f08/f08.csv
 - parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f08/f08.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f08/f08.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f08/f08.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f08/f08.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f08/f08.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f08/f08.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f08/f08.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f08/f08.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f08/f08.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f08/f08.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f08/f08.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f08/f08.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
     data_file: zhong/f08/f08.csv
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
-    data_file: zhong/f09/f09.csv
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f08/f08.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
-    data_file: zhong/f09/f09.csv
-- parameters:
-    model__kde_bandwidth: 372.17169396832526
+    model__kde_bandwidth: 0.07057933833811564
     model__n_kde: 297
-    model__n_uniform: 333
+    model__n_uniform: 242
+    data_file: zhong/f08/f08.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f08/f08.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f08/f08.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f08/f08.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f08/f08.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f08/f08.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f08/f08.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
+    data_file: zhong/f08/f08.csv
+- parameters:
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f09/f09.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f09/f09.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f09/f09.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f09/f09.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f09/f09.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f09/f09.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f09/f09.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f09/f09.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f09/f09.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f09/f09.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f09/f09.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f09/f09.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f09/f09.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f09/f09.csv
 - parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f09/f09.csv
 - parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f09/f09.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f09/f09.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f09/f09.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f09/f09.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f09/f09.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f09/f09.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f09/f09.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f09/f09.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f09/f09.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f09/f09.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f09/f09.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f09/f09.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
     data_file: zhong/f09/f09.csv
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
-    data_file: zhong/f10/f10.csv
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f09/f09.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
-    data_file: zhong/f10/f10.csv
-- parameters:
-    model__kde_bandwidth: 372.17169396832526
+    model__kde_bandwidth: 0.07057933833811564
     model__n_kde: 297
-    model__n_uniform: 333
+    model__n_uniform: 242
+    data_file: zhong/f09/f09.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f09/f09.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f09/f09.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f09/f09.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f09/f09.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f09/f09.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f09/f09.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
+    data_file: zhong/f09/f09.csv
+- parameters:
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f10/f10.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f10/f10.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f10/f10.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f10/f10.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f10/f10.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f10/f10.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f10/f10.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f10/f10.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f10/f10.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f10/f10.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f10/f10.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f10/f10.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f10/f10.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f10/f10.csv
 - parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f10/f10.csv
 - parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f10/f10.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f10/f10.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f10/f10.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f10/f10.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f10/f10.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f10/f10.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f10/f10.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f10/f10.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f10/f10.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f10/f10.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f10/f10.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f10/f10.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
     data_file: zhong/f10/f10.csv
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
-    data_file: zhong/f11/f11.csv
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f10/f10.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
-    data_file: zhong/f11/f11.csv
-- parameters:
-    model__kde_bandwidth: 372.17169396832526
+    model__kde_bandwidth: 0.07057933833811564
     model__n_kde: 297
-    model__n_uniform: 333
+    model__n_uniform: 242
+    data_file: zhong/f10/f10.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f10/f10.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f10/f10.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f10/f10.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f10/f10.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f10/f10.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f10/f10.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
+    data_file: zhong/f10/f10.csv
+- parameters:
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f11/f11.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f11/f11.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f11/f11.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f11/f11.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f11/f11.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f11/f11.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f11/f11.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f11/f11.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f11/f11.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f11/f11.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f11/f11.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f11/f11.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f11/f11.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f11/f11.csv
 - parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f11/f11.csv
 - parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f11/f11.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f11/f11.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f11/f11.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f11/f11.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f11/f11.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f11/f11.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f11/f11.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f11/f11.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f11/f11.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f11/f11.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f11/f11.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f11/f11.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
     data_file: zhong/f11/f11.csv
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
-    data_file: zhong/f12/f12.csv
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f11/f11.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
-    data_file: zhong/f12/f12.csv
-- parameters:
-    model__kde_bandwidth: 372.17169396832526
+    model__kde_bandwidth: 0.07057933833811564
     model__n_kde: 297
-    model__n_uniform: 333
+    model__n_uniform: 242
+    data_file: zhong/f11/f11.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f11/f11.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f11/f11.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f11/f11.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f11/f11.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f11/f11.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f11/f11.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
+    data_file: zhong/f11/f11.csv
+- parameters:
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f12/f12.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f12/f12.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f12/f12.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f12/f12.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f12/f12.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f12/f12.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f12/f12.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f12/f12.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f12/f12.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f12/f12.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f12/f12.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f12/f12.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f12/f12.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f12/f12.csv
 - parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f12/f12.csv
 - parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f12/f12.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f12/f12.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f12/f12.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f12/f12.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f12/f12.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f12/f12.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f12/f12.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f12/f12.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f12/f12.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f12/f12.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f12/f12.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f12/f12.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
     data_file: zhong/f12/f12.csv
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
-    data_file: zhong/f13/f13.csv
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f12/f12.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
-    data_file: zhong/f13/f13.csv
-- parameters:
-    model__kde_bandwidth: 372.17169396832526
+    model__kde_bandwidth: 0.07057933833811564
     model__n_kde: 297
-    model__n_uniform: 333
+    model__n_uniform: 242
+    data_file: zhong/f12/f12.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f12/f12.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f12/f12.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f12/f12.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f12/f12.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f12/f12.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f12/f12.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
+    data_file: zhong/f12/f12.csv
+- parameters:
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f13/f13.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f13/f13.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f13/f13.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f13/f13.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f13/f13.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f13/f13.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f13/f13.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f13/f13.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f13/f13.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f13/f13.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f13/f13.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f13/f13.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f13/f13.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f13/f13.csv
 - parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f13/f13.csv
 - parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f13/f13.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f13/f13.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f13/f13.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f13/f13.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f13/f13.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f13/f13.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f13/f13.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f13/f13.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f13/f13.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f13/f13.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f13/f13.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f13/f13.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
     data_file: zhong/f13/f13.csv
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
-    data_file: zhong/f14/f14.csv
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f13/f13.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
-    data_file: zhong/f14/f14.csv
-- parameters:
-    model__kde_bandwidth: 372.17169396832526
+    model__kde_bandwidth: 0.07057933833811564
     model__n_kde: 297
-    model__n_uniform: 333
+    model__n_uniform: 242
+    data_file: zhong/f13/f13.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f13/f13.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f13/f13.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f13/f13.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f13/f13.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f13/f13.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f13/f13.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
+    data_file: zhong/f13/f13.csv
+- parameters:
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f14/f14.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f14/f14.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f14/f14.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f14/f14.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f14/f14.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f14/f14.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f14/f14.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f14/f14.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f14/f14.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f14/f14.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f14/f14.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f14/f14.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f14/f14.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f14/f14.csv
 - parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f14/f14.csv
 - parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f14/f14.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f14/f14.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f14/f14.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f14/f14.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f14/f14.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f14/f14.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f14/f14.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f14/f14.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f14/f14.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f14/f14.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f14/f14.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f14/f14.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
     data_file: zhong/f14/f14.csv
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
-    data_file: zhong/f15/f15.csv
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f14/f14.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
-    data_file: zhong/f15/f15.csv
-- parameters:
-    model__kde_bandwidth: 372.17169396832526
+    model__kde_bandwidth: 0.07057933833811564
     model__n_kde: 297
-    model__n_uniform: 333
+    model__n_uniform: 242
+    data_file: zhong/f14/f14.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f14/f14.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f14/f14.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f14/f14.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f14/f14.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f14/f14.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f14/f14.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
+    data_file: zhong/f14/f14.csv
+- parameters:
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f15/f15.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f15/f15.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f15/f15.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f15/f15.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f15/f15.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f15/f15.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f15/f15.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f15/f15.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f15/f15.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f15/f15.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f15/f15.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f15/f15.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f15/f15.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f15/f15.csv
 - parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f15/f15.csv
 - parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f15/f15.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f15/f15.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f15/f15.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f15/f15.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f15/f15.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f15/f15.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f15/f15.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f15/f15.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f15/f15.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f15/f15.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f15/f15.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f15/f15.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
     data_file: zhong/f15/f15.csv
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
-    data_file: zhong/f16/f16.csv
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f15/f15.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
-    data_file: zhong/f16/f16.csv
-- parameters:
-    model__kde_bandwidth: 372.17169396832526
+    model__kde_bandwidth: 0.07057933833811564
     model__n_kde: 297
-    model__n_uniform: 333
+    model__n_uniform: 242
+    data_file: zhong/f15/f15.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f15/f15.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f15/f15.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f15/f15.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f15/f15.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f15/f15.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f15/f15.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
+    data_file: zhong/f15/f15.csv
+- parameters:
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f16/f16.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f16/f16.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f16/f16.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f16/f16.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f16/f16.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f16/f16.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f16/f16.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f16/f16.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f16/f16.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f16/f16.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f16/f16.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f16/f16.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f16/f16.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f16/f16.csv
 - parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f16/f16.csv
 - parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f16/f16.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f16/f16.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f16/f16.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f16/f16.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f16/f16.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f16/f16.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f16/f16.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f16/f16.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f16/f16.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f16/f16.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f16/f16.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f16/f16.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
     data_file: zhong/f16/f16.csv
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
-    data_file: zhong/f17/f17.csv
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f16/f16.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
-    data_file: zhong/f17/f17.csv
-- parameters:
-    model__kde_bandwidth: 372.17169396832526
+    model__kde_bandwidth: 0.07057933833811564
     model__n_kde: 297
-    model__n_uniform: 333
+    model__n_uniform: 242
+    data_file: zhong/f16/f16.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f16/f16.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f16/f16.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f16/f16.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f16/f16.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f16/f16.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f16/f16.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
+    data_file: zhong/f16/f16.csv
+- parameters:
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f17/f17.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f17/f17.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f17/f17.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f17/f17.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f17/f17.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f17/f17.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f17/f17.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f17/f17.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f17/f17.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f17/f17.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f17/f17.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f17/f17.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f17/f17.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f17/f17.csv
 - parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f17/f17.csv
 - parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f17/f17.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f17/f17.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f17/f17.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f17/f17.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f17/f17.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f17/f17.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f17/f17.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f17/f17.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f17/f17.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f17/f17.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f17/f17.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f17/f17.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
     data_file: zhong/f17/f17.csv
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
-    data_file: zhong/f18/f18.csv
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f17/f17.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
-    data_file: zhong/f18/f18.csv
-- parameters:
-    model__kde_bandwidth: 372.17169396832526
+    model__kde_bandwidth: 0.07057933833811564
     model__n_kde: 297
-    model__n_uniform: 333
+    model__n_uniform: 242
+    data_file: zhong/f17/f17.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f17/f17.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f17/f17.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f17/f17.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f17/f17.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f17/f17.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f17/f17.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
+    data_file: zhong/f17/f17.csv
+- parameters:
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f18/f18.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f18/f18.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f18/f18.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f18/f18.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f18/f18.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f18/f18.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f18/f18.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f18/f18.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f18/f18.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f18/f18.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f18/f18.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f18/f18.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f18/f18.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f18/f18.csv
 - parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f18/f18.csv
 - parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f18/f18.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f18/f18.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f18/f18.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f18/f18.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f18/f18.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f18/f18.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f18/f18.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f18/f18.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f18/f18.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f18/f18.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f18/f18.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f18/f18.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
     data_file: zhong/f18/f18.csv
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
-    data_file: zhong/f19/f19.csv
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f18/f18.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
-    data_file: zhong/f19/f19.csv
-- parameters:
-    model__kde_bandwidth: 372.17169396832526
+    model__kde_bandwidth: 0.07057933833811564
     model__n_kde: 297
-    model__n_uniform: 333
+    model__n_uniform: 242
+    data_file: zhong/f18/f18.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f18/f18.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f18/f18.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f18/f18.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f18/f18.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f18/f18.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f18/f18.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
+    data_file: zhong/f18/f18.csv
+- parameters:
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f19/f19.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f19/f19.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f19/f19.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f19/f19.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f19/f19.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f19/f19.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f19/f19.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f19/f19.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f19/f19.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f19/f19.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f19/f19.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f19/f19.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f19/f19.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f19/f19.csv
 - parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f19/f19.csv
 - parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f19/f19.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f19/f19.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f19/f19.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f19/f19.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f19/f19.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f19/f19.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f19/f19.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f19/f19.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f19/f19.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f19/f19.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f19/f19.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f19/f19.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
     data_file: zhong/f19/f19.csv
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
-    data_file: zhong/f20/f20.csv
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f19/f19.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
-    data_file: zhong/f20/f20.csv
-- parameters:
-    model__kde_bandwidth: 372.17169396832526
+    model__kde_bandwidth: 0.07057933833811564
     model__n_kde: 297
-    model__n_uniform: 333
+    model__n_uniform: 242
+    data_file: zhong/f19/f19.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f19/f19.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f19/f19.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f19/f19.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f19/f19.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f19/f19.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f19/f19.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
+    data_file: zhong/f19/f19.csv
+- parameters:
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f20/f20.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f20/f20.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f20/f20.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f20/f20.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f20/f20.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f20/f20.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f20/f20.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f20/f20.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f20/f20.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f20/f20.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f20/f20.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f20/f20.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f20/f20.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f20/f20.csv
 - parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f20/f20.csv
 - parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f20/f20.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f20/f20.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f20/f20.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f20/f20.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f20/f20.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f20/f20.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f20/f20.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f20/f20.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f20/f20.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f20/f20.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f20/f20.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f20/f20.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
     data_file: zhong/f20/f20.csv
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
-    data_file: zhong/f21/f21.csv
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f20/f20.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
-    data_file: zhong/f21/f21.csv
-- parameters:
-    model__kde_bandwidth: 372.17169396832526
+    model__kde_bandwidth: 0.07057933833811564
     model__n_kde: 297
-    model__n_uniform: 333
+    model__n_uniform: 242
+    data_file: zhong/f20/f20.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f20/f20.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f20/f20.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f20/f20.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f20/f20.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f20/f20.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f20/f20.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
+    data_file: zhong/f20/f20.csv
+- parameters:
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f21/f21.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f21/f21.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f21/f21.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f21/f21.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f21/f21.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f21/f21.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f21/f21.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f21/f21.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f21/f21.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f21/f21.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f21/f21.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f21/f21.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f21/f21.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f21/f21.csv
 - parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f21/f21.csv
 - parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f21/f21.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f21/f21.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f21/f21.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f21/f21.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f21/f21.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f21/f21.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f21/f21.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f21/f21.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f21/f21.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f21/f21.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f21/f21.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f21/f21.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
     data_file: zhong/f21/f21.csv
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
-    data_file: zhong/f22/f22.csv
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f21/f21.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
-    data_file: zhong/f22/f22.csv
-- parameters:
-    model__kde_bandwidth: 372.17169396832526
+    model__kde_bandwidth: 0.07057933833811564
     model__n_kde: 297
-    model__n_uniform: 333
+    model__n_uniform: 242
+    data_file: zhong/f21/f21.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f21/f21.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f21/f21.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f21/f21.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f21/f21.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f21/f21.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f21/f21.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
+    data_file: zhong/f21/f21.csv
+- parameters:
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f22/f22.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f22/f22.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f22/f22.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f22/f22.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f22/f22.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f22/f22.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f22/f22.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f22/f22.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f22/f22.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f22/f22.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f22/f22.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f22/f22.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f22/f22.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f22/f22.csv
 - parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f22/f22.csv
 - parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f22/f22.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f22/f22.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f22/f22.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f22/f22.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f22/f22.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f22/f22.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f22/f22.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f22/f22.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f22/f22.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f22/f22.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f22/f22.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f22/f22.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
     data_file: zhong/f22/f22.csv
 - parameters:
-    model__kde_bandwidth: 0.0231697892885368
-    model__n_kde: 355
-    model__n_uniform: 183
-    data_file: zhong/f23/f23.csv
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f22/f22.csv
 - parameters:
-    model__kde_bandwidth: 204.5801574341711
-    model__n_kde: 422
-    model__n_uniform: 455
-    data_file: zhong/f23/f23.csv
-- parameters:
-    model__kde_bandwidth: 372.17169396832526
+    model__kde_bandwidth: 0.07057933833811564
     model__n_kde: 297
-    model__n_uniform: 333
+    model__n_uniform: 242
+    data_file: zhong/f22/f22.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f22/f22.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f22/f22.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f22/f22.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f22/f22.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f22/f22.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f22/f22.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
+    data_file: zhong/f22/f22.csv
+- parameters:
+    model__kde_bandwidth: 6.151335891636134e-06
+    model__n_kde: 382
+    model__n_uniform: 324
     data_file: zhong/f23/f23.csv
 - parameters:
-    model__kde_bandwidth: 1.963613297208125e-06
-    model__n_kde: 247
-    model__n_uniform: 17
+    model__kde_bandwidth: 0.0015180410650144326
+    model__n_kde: 276
+    model__n_uniform: 26
     data_file: zhong/f23/f23.csv
 - parameters:
-    model__kde_bandwidth: 3910.901158417441
-    model__n_kde: 454
-    model__n_uniform: 37
+    model__kde_bandwidth: 4.21314812686303e-05
+    model__n_kde: 54
+    model__n_uniform: 203
     data_file: zhong/f23/f23.csv
 - parameters:
-    model__kde_bandwidth: 0.0035434362459224066
-    model__n_kde: 259
-    model__n_uniform: 380
+    model__kde_bandwidth: 0.0002177144548954325
+    model__n_kde: 474
+    model__n_uniform: 174
     data_file: zhong/f23/f23.csv
 - parameters:
-    model__kde_bandwidth: 239114.53495900778
-    model__n_kde: 345
-    model__n_uniform: 150
+    model__kde_bandwidth: 3.006584297446814e-05
+    model__n_kde: 389
+    model__n_uniform: 431
     data_file: zhong/f23/f23.csv
 - parameters:
-    model__kde_bandwidth: 5.477886603673737e-05
-    model__n_kde: 174
-    model__n_uniform: 439
+    model__kde_bandwidth: 0.0004869470604697102
+    model__n_kde: 133
+    model__n_uniform: 445
     data_file: zhong/f23/f23.csv
 - parameters:
-    model__kde_bandwidth: 53525.07901465444
-    model__n_kde: 139
-    model__n_uniform: 308
+    model__kde_bandwidth: 0.009372552502139054
+    model__n_kde: 229
+    model__n_uniform: 49
     data_file: zhong/f23/f23.csv
 - parameters:
-    model__kde_bandwidth: 0.0009363669678669047
-    model__n_kde: 330
-    model__n_uniform: 340
+    model__kde_bandwidth: 0.36603710922696236
+    model__n_kde: 500
+    model__n_uniform: 163
     data_file: zhong/f23/f23.csv
 - parameters:
-    model__kde_bandwidth: 6.102848793666956
-    model__n_kde: 369
-    model__n_uniform: 284
+    model__kde_bandwidth: 0.043014946220280535
+    model__n_kde: 362
+    model__n_uniform: 195
     data_file: zhong/f23/f23.csv
 - parameters:
-    model__kde_bandwidth: 0.6539899251030378
-    model__n_kde: 106
-    model__n_uniform: 390
+    model__kde_bandwidth: 0.001647166554422704
+    model__n_kde: 113
+    model__n_uniform: 495
     data_file: zhong/f23/f23.csv
 - parameters:
-    model__kde_bandwidth: 1.9094831321020118
-    model__n_kde: 484
-    model__n_uniform: 58
+    model__kde_bandwidth: 0.015207717392548486
+    model__n_kde: 194
+    model__n_uniform: 313
     data_file: zhong/f23/f23.csv
 - parameters:
-    model__kde_bandwidth: 5.781201968987442e-06
-    model__n_kde: 313
-    model__n_uniform: 287
+    model__kde_bandwidth: 0.20801532682725435
+    model__n_kde: 182
+    model__n_uniform: 115
     data_file: zhong/f23/f23.csv
 - parameters:
-    model__kde_bandwidth: 31.25045014604616
-    model__n_kde: 18
-    model__n_uniform: 51
+    model__kde_bandwidth: 0.00013162917812584832
+    model__n_kde: 10
+    model__n_uniform: 125
     data_file: zhong/f23/f23.csv
 - parameters:
-    model__kde_bandwidth: 131369.54354752414
-    model__n_kde: 81
-    model__n_uniform: 207
+    model__kde_bandwidth: 0.5548781409754941
+    model__n_kde: 310
+    model__n_uniform: 336
     data_file: zhong/f23/f23.csv
 - parameters:
-    model__kde_bandwidth: 0.00014857795486557362
-    model__n_kde: 279
-    model__n_uniform: 105
+    model__kde_bandwidth: 0.14530955731989625
+    model__n_kde: 331
+    model__n_uniform: 482
     data_file: zhong/f23/f23.csv
 - parameters:
-    model__kde_bandwidth: 19317.772822151604
-    model__n_kde: 443
-    model__n_uniform: 220
-    data_file: zhong/f23/f23.csv
-- parameters:
-    model__kde_bandwidth: 6039.492991156431
-    model__n_kde: 124
-    model__n_uniform: 486
-    data_file: zhong/f23/f23.csv
-- parameters:
-    model__kde_bandwidth: 1401.5718793538779
-    model__n_kde: 102
-    model__n_uniform: 402
-    data_file: zhong/f23/f23.csv
-- parameters:
-    model__kde_bandwidth: 0.07404286432197185
-    model__n_kde: 45
-    model__n_uniform: 134
-    data_file: zhong/f23/f23.csv
-- parameters:
-    model__kde_bandwidth: 628343.1430403669
-    model__n_kde: 231
-    model__n_uniform: 265
-    data_file: zhong/f23/f23.csv
-- parameters:
-    model__kde_bandwidth: 8.883751468639845e-06
-    model__n_kde: 160
-    model__n_uniform: 250
-    data_file: zhong/f23/f23.csv
-- parameters:
-    model__kde_bandwidth: 0.007088333205781593
-    model__n_kde: 468
-    model__n_uniform: 83
-    data_file: zhong/f23/f23.csv
-- parameters:
-    model__kde_bandwidth: 3.862026116771585e-05
+    model__kde_bandwidth: 0.000396591969168231
     model__n_kde: 56
-    model__n_uniform: 426
+    model__n_uniform: 264
     data_file: zhong/f23/f23.csv
 - parameters:
-    model__kde_bandwidth: 0.30920644809856934
-    model__n_kde: 191
-    model__n_uniform: 471
+    model__kde_bandwidth: 0.0029424707591088786
+    model__n_kde: 257
+    model__n_uniform: 375
     data_file: zhong/f23/f23.csv
 - parameters:
-    model__kde_bandwidth: 94.71141550712478
-    model__n_kde: 405
-    model__n_uniform: 360
+    model__kde_bandwidth: 2.7214630336815428e-06
+    model__n_kde: 140
+    model__n_uniform: 14
     data_file: zhong/f23/f23.csv
 - parameters:
-    model__kde_bandwidth: 0.0006257104813407985
-    model__n_kde: 210
-    model__n_uniform: 165
+    model__kde_bandwidth: 1.7179901040938148e-06
+    model__n_kde: 243
+    model__n_uniform: 55
     data_file: zhong/f23/f23.csv
 - parameters:
-    model__kde_bandwidth: 0.036631420762695883
-    model__n_kde: 394
-    model__n_uniform: 193
+    model__kde_bandwidth: 0.020248873539523666
+    model__n_kde: 89
+    model__n_uniform: 77
     data_file: zhong/f23/f23.csv
 - parameters:
-    model__kde_bandwidth: 13.86648038005376
-    model__n_kde: 31
-    model__n_uniform: 92
+    model__kde_bandwidth: 0.03701463262303522
+    model__n_kde: 337
+    model__n_uniform: 138
+    data_file: zhong/f23/f23.csv
+- parameters:
+    model__kde_bandwidth: 0.6407970069426002
+    model__n_kde: 440
+    model__n_uniform: 458
+    data_file: zhong/f23/f23.csv
+- parameters:
+    model__kde_bandwidth: 0.07057933833811564
+    model__n_kde: 297
+    model__n_uniform: 242
+    data_file: zhong/f23/f23.csv
+- parameters:
+    model__kde_bandwidth: 1.9052856436701827e-05
+    model__n_kde: 415
+    model__n_uniform: 98
+    data_file: zhong/f23/f23.csv
+- parameters:
+    model__kde_bandwidth: 0.004507452014690726
+    model__n_kde: 167
+    model__n_uniform: 357
+    data_file: zhong/f23/f23.csv
+- parameters:
+    model__kde_bandwidth: 1.3436756099281604e-05
+    model__n_kde: 29
+    model__n_uniform: 410
+    data_file: zhong/f23/f23.csv
+- parameters:
+    model__kde_bandwidth: 7.493571283358727e-05
+    model__n_kde: 77
+    model__n_uniform: 386
+    data_file: zhong/f23/f23.csv
+- parameters:
+    model__kde_bandwidth: 9.486087387554824e-06
+    model__n_kde: 459
+    model__n_uniform: 229
+    data_file: zhong/f23/f23.csv
+- parameters:
+    model__kde_bandwidth: 0.0009665928558107059
+    model__n_kde: 214
+    model__n_uniform: 288
+    data_file: zhong/f23/f23.csv
+- parameters:
+    model__kde_bandwidth: 1.2119335340926153e-06
+    model__n_kde: 433
+    model__n_uniform: 279
     data_file: zhong/f23/f23.csv
