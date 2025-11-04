@@ -36,27 +36,24 @@ def induced_kl_divergence(
             centering_mean = np.mean(f_vals[center_mask])
             f_vals = f_vals - centering_mean
 
+    # Compute the pdfs
     candidate_dist_unnorm = np.exp(-lambda_ * np.abs(f_vals) ** exponent)
     reference_dist_unnorm = reference_dist.pdf(sampler.samples)
 
+    # Normalize the pdfs
     candidate_dist_norm = candidate_dist_unnorm / (
-        np.sum(sampler.weights * candidate_dist_unnorm) + epsilon
+        np.sum(candidate_dist_unnorm) + epsilon
     )
     reference_dist_norm = reference_dist_unnorm / (
-        np.sum(sampler.weights * reference_dist_unnorm) + epsilon
-    )
-    # candidate_dist_norm = candidate_dist_unnorm / (
-    #     np.sum(candidate_dist_unnorm) + epsilon
-    # )
-    # reference_dist_norm = reference_dist_unnorm / (
-    #     np.sum(reference_dist_unnorm) + epsilon
-    # )
-
-    log_dist_ratio = np.log(
-        (reference_dist_norm + epsilon) / (candidate_dist_norm + epsilon)
+        np.sum(reference_dist_unnorm) + epsilon
     )
 
-    fitness_per_sample = sampler.weights * reference_dist_norm * log_dist_ratio
+    unweighted_fitness = (
+        reference_dist_norm * np.log((reference_dist_norm + epsilon))
+    ) - (reference_dist_norm * np.log((candidate_dist_norm + epsilon)))
+
+    # Compute the induced KL divergence
+    fitness_per_sample = sampler.weights * unweighted_fitness
 
     return np.sum(fitness_per_sample).item()
 

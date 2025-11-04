@@ -112,12 +112,11 @@ class ExpressionTree:
         """
         Evaluates the expression tree at a given node index.
 
-        This implementation is optimized to avoid repeated calculations of subtree
-        sizes, which was a major performance bottleneck in the previous version.
-        It uses a single recursive function that evaluates a node and
-        simultaneously computes the size of the subtree rooted at that node.
-        This avoids the need for separate, repeated calls to a `_subtree_size`
-        method during evaluation.
+        args:
+            X: np.ndarray
+                Input data of shape (n_samples, n_features).
+            index: int
+                Index of the node to evaluate from. Defaults to 0 (the root node).
         """
 
         def _eval(node_index: int) -> tuple[np.ndarray, int]:
@@ -163,7 +162,6 @@ def simplify_tree(tree: ExpressionTree, X: np.ndarray) -> None:
     - replace mul(x, x) with x if x >= 0
     """
 
-    # TODO: implement simplification rules
     index = len(tree.nodes) - 1
     for node in tree.nodes[::-1]:
         if node.arity == 1:

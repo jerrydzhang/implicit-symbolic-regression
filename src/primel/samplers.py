@@ -153,6 +153,7 @@ class ImportanceSampler:
         if samples_list:
             self.samples = np.vstack(samples_list)
             self.weights = np.hstack(weights_list)
+            self.weights = self.weights / np.sum(self.weights)
         else:
             self.samples = np.array([])
             self.weights = np.array([])
@@ -178,3 +179,7 @@ class ImportanceSampler:
         index = self.name_map[name]
         start, end = self.range_map[index]
         return self.weights[start:end]
+
+    def reweight_by_dist(self: Self, dist: Distribution) -> None:
+        pdf_values = dist.pdf(self.samples)
+        mid = (np.max(pdf_values) - np.min(pdf_values)) / 2.0
